@@ -3,7 +3,7 @@ const allSeats = document.querySelectorAll(".container .seat");
 const notOccupiedSeats = document.querySelector(".container .seat:not(.occupied)");
 const count = document.getElementById("count");
 const film = document.getElementById("film");
-const total = document.getElementById("total");
+const total = document.querySelector(".total");
 const movieSelectBox = document.getElementById("movie");
 
 //önce localstorage sonra slectbox
